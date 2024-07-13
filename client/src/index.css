@@ -641,14 +641,16 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    overflow: auto;
+    padding: 10px;
+    overflow: scroll;
   }
   .cshop-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    overflow: auto;
+    padding: 30px;
+    overflow: scroll;
   }
 
   .text-project-son {
