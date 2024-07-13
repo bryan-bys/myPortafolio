@@ -705,6 +705,8 @@ a:hover {
   }
 
   .arrow-container {
+    top: 1%;
+    left: 1%;
   }
 
   .close-arrow {
