@@ -637,6 +637,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    width: 100%;
     padding: 5px;
     overflow-y: scroll;
   }
@@ -645,6 +646,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    width: 100%;
     padding: 5px;
     overflow-y: scroll;
   }
