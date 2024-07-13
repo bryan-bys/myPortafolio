@@ -522,11 +522,14 @@ a:hover {
   margin-top: 30px;
 }
 
-.close-arrow {
+.arrow-container {
   position: absolute;
   top: 5%;
   left: 5%;
-  margin-bottom: 20px;
+  margin-bottom: 200px;
+}
+
+.close-arrow {
   font-size: 50px;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -708,7 +711,7 @@ a:hover {
 
 @media (max-width: 600px) {
   .home-content p {
-    font-size: 4.5vw;
+    font-size: 4vw;
   }
 
   .resume-container {
