@@ -11,6 +11,14 @@ const CoffeeShop = ({ cshopActivate, setCshopActivate }) => {
           cshopActivate ? "cshop-container-activate" : "cshop-container-out"
         }`}
       >
+        <div className="arrow-container">
+          <i
+            onClick={() => {
+              setCshopActivate(false);
+            }}
+            className="fa-solid fa-arrow-up close-arrow"
+          ></i>
+        </div>
         <div className="text-project-son">
           <h3> COFFEE SHOP</h3>
           <p className="project-son-description ">
@@ -40,12 +48,6 @@ const CoffeeShop = ({ cshopActivate, setCshopActivate }) => {
           <img src={coffee1} />
           <img src={coffee2} />
         </div>
-        <i
-          onClick={() => {
-            setCshopActivate(false);
-          }}
-          className="fa-solid fa-arrow-up close-arrow"
-        ></i>
       </div>
     </>
   );
