@@ -742,6 +742,7 @@ a:hover {
   .text-project-son {
     position: static;
     width: 90%;
+    padding-top: 250px;
   }
 
   .text-project-son h3 {
