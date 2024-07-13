@@ -137,7 +137,7 @@ a:hover {
   justify-content: center;
   position: absolute;
   bottom: -100%;
-  width: 70%;
+  width: 90%;
   height: 90vh;
   animation: slideInBottom 1s ease-out forwards;
   animation-delay: 1s;
@@ -185,8 +185,8 @@ a:hover {
   align-items: center;
   position: absolute;
   top: -100%;
-  width: 80%;
-  height: 90vh;
+  width: 95%;
+  height: 97vh;
   border: solid 2px black;
   border-radius: 0 0 50px 50px;
   background-color: #769389;
@@ -219,7 +219,7 @@ a:hover {
 }
 
 .projects-links p {
-  font-size: 6.5vw;
+  font-size: 8vw;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -336,7 +336,7 @@ a:hover {
   right: -100%;
   z-index: 999;
   width: 80%;
-  height: 90vh;
+  height: 97vh;
   border: solid 2px black;
   border-radius: 0 0 50px 0px;
   background-color: #3b7862;
@@ -350,7 +350,7 @@ a:hover {
   animation: slideOutRight 1s forwards;
 }
 
-.text-myx {
+/* .text-myx {
   position: absolute;
   left: 7%;
   display: flex;
@@ -358,7 +358,7 @@ a:hover {
   justify-content: center;
   align-items: baseline;
   width: 50%;
-  height: 60vh;
+  height: 80vh;
 }
 
 .text-myx h3 {
@@ -370,7 +370,7 @@ a:hover {
 }
 .myx-description {
   font-family: "Raleway", sans-serif;
-  font-size: 1.5vw;
+  font-size: 2vw;
   width: 80%;
 }
 .languages {
@@ -408,14 +408,14 @@ a:hover {
 }
 
 .myx-img-container img {
-  width: 25vw;
-  height: 14vw;
+  width: 90%;
+  height: 17vw;
   border: solid rgb(165, 215, 155) 2px;
   border-radius: 20px;
   margin-top: 30px;
-}
+} */
 
-.close-arrow {
+/* .close-arrow {
   position: absolute;
   bottom: 0;
   left: 45%;
@@ -423,11 +423,11 @@ a:hover {
   font-size: 2vw;
   cursor: pointer;
   transition: transform 0.3s ease;
-}
+} */
 
-.close-arrow:hover {
+/* .close-arrow:hover {
   transform: translateY(-5px);
-}
+} */
 
 /* COFFEESHOP  */
 
@@ -440,7 +440,7 @@ a:hover {
   right: 0;
   z-index: 999;
   width: 80%;
-  height: 90vh;
+  height: 97vh;
   border: solid 2px black;
   border-radius: 0 0 50px 0px;
   background-color: rgb(78, 122, 81);
@@ -454,7 +454,9 @@ a:hover {
   animation: slideCTopOut 1s forwards;
 }
 
-.text-cshop {
+/* PROJECT-SON */
+
+.text-project-son {
   position: absolute;
   left: 7%;
   display: flex;
@@ -465,14 +467,14 @@ a:hover {
   height: 60vh;
 }
 
-.text-cshop h3 {
+.text-project-son h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 3.5vw;
   height: 2.7vw;
   overflow: hidden;
   margin-bottom: 20px;
 }
-.cshop-description {
+.project-son-description {
   font-family: "Raleway", sans-serif;
   font-size: 1.5vw;
   width: 80%;
@@ -492,17 +494,17 @@ a:hover {
   width: 5vw;
 }
 
-.text-cshop a {
+.text-project-son a {
   all: unset;
   font-size: 1.2vw;
   cursor: pointer;
   color: rgb(165, 215, 155);
 }
-.text-cshop a i {
+.text-project-son a i {
   margin-left: 10px;
 }
 
-.cshop-img-container {
+.project-son-img-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -511,7 +513,7 @@ a:hover {
   width: 50%;
 }
 
-.cshop-img-container img {
+.project-son-img-container img {
   width: 25vw;
   height: 14vw;
   max-height: 200px;
@@ -522,10 +524,10 @@ a:hover {
 
 .close-arrow {
   position: absolute;
-  bottom: 0;
-  left: 45%;
+  top: 5%;
+  left: 5%;
   margin-bottom: 20px;
-  font-size: 2vw;
+  font-size: 50px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -618,16 +620,94 @@ a:hover {
 
 /* BREAKPOINTS */
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
+  .home-content p {
+    font-size: 2vw;
+  }
+
   .contact-container {
     top: 7%;
     width: 70%;
+  }
+
+  .myx-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: auto;
+  }
+  .cshop-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: auto;
+  }
+
+  .text-project-son {
+    position: static;
+    width: 90%;
+    height: fit-content;
+    margin-top: 150px;
+  }
+
+  .text-project-son h3 {
+    font-size: 6vw;
+    height: 5vw;
+    margin-bottom: 20px;
+  }
+  .project-son-description {
+    font-size: 4vw;
+    width: 100%;
+  }
+  .languages {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .languages p {
+    margin-right: 10px;
+  }
+  .languages p i {
+    font-size: 7vw;
+  }
+  .django-logo {
+    width: 9vw;
+  }
+
+  .text-project-son a {
+    font-size: 3vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .text-project-son a i {
+    margin-left: 10px;
+  }
+
+  .project-son-img-container {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .project-son-img-container img {
+    width: 60vw;
+    height: 30vw;
+    max-height: none;
+    margin-top: 10px;
+  }
+
+  .close-arrow {
+    font-size: 6vw;
   }
 }
 
 @media (max-width: 600px) {
   .home-content p {
-    font-size: 2vw;
+    font-size: 3vw;
   }
 
   .resume-container {
@@ -641,44 +721,57 @@ a:hover {
     justify-content: space-evenly;
   }
 
-  .text-myx {
+  .cshop-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .text-project-son {
     position: static;
     width: 90%;
     height: fit-content;
+    margin-top: 150px;
   }
 
-  .text-myx h3 {
-    font-size: 5vw;
-    height: 4vw;
+  .text-project-son h3 {
+    font-size: 10vw;
+    height: 8vw;
     margin-bottom: 20px;
   }
-  .myx-description {
-    font-size: 3vw;
+  .project-son-description {
+    font-size: 6vw;
     width: 100%;
   }
+
+  .django-logo {
+    width: 15vw;
+  }
+
+  .text-project-son a {
+    font-size: 5vw;
+    margin-top: 50px;
+  }
+  .text-project-son a i {
+    margin-left: 10px;
+  }
+
   .languages {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 50px;
   }
   .languages p {
     margin-right: 10px;
   }
   .languages p i {
-    font-size: 7vw;
+    font-size: 15vw;
   }
   .django-logo {
-    width: 9vw;
+    width: 20vw;
   }
 
-  .text-myx a {
-    font-size: 3vw;
-    margin-top: 10px;
-  }
-  .text-myx a i {
-    margin-left: 10px;
-  }
-
-  .myx-img-container {
+  .project-son-img-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -687,57 +780,45 @@ a:hover {
     margin-bottom: 30px;
   }
 
-  .myx-img-container img {
-    width: 35vw;
-    height: 18vw;
+  .project-son-img-container img {
+    width: 70vw;
+    height: 35vw;
     margin-top: 10px;
   }
 
-  .cshop-container {
+  /* .project-son-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
   }
 
-  .text-cshop {
+  .project-son-cshop {
     position: static;
     width: 90%;
     height: fit-content;
   }
 
-  .text-cshop h3 {
+  .project-son-cshop h3 {
     font-size: 5vw;
     height: 4vw;
     margin-bottom: 20px;
   }
-  .cshop-description {
+  .project-son-description {
     font-size: 3vw;
     width: 100%;
-  }
-  .languages {
-    width: 100%;
-    margin-top: 10px;
-  }
-  .languages p {
-    margin-right: 10px;
-  }
-  .languages p i {
-    font-size: 7vw;
-  }
-  .django-logo {
-    width: 9vw;
   }
 
-  .text-cshop a {
-    font-size: 3vw;
-    margin-top: 10px;
+
+  .text-project-son a {
+    font-size: 4vw;
+    margin-top: 40px;
   }
-  .text-cshop a i {
+  .text-project-son a i {
     margin-left: 10px;
   }
 
-  .cshop-img-container {
+  .project-son-img-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -746,7 +827,7 @@ a:hover {
     margin-bottom: 20px;
   }
 
-  .cshop-img-container img {
+  .project-son-img-container img {
     width: 33vw;
     height: 17vw;
     margin-top: 5px;
@@ -756,27 +837,29 @@ a:hover {
     margin-bottom: 10px;
     margin-top: 10px;
     font-size: 4vw;
-  }
+  } */
 }
 @media (max-width: 450px) {
-  .myx-img-container img {
-    width: 50vw;
-    height: 25vw;
+  .project-son-img-container img {
     margin-top: 10px;
   }
-  .cshop-img-container img {
-    width: 50vw;
-    height: 25vw;
+  .project-son-img-container img {
+    width: 70vw;
+    height: 35vw;
     margin-top: 10px;
   }
 }
 
 @media (max-width: 375px) {
+  .home-content {
+    overflow: scroll;
+    width: 90%;
+  }
   .home-content h3 {
     font-size: 8vw;
   }
   .home-content p {
-    font-size: 2.5vw;
+    font-size: 4vw;
   }
 
   .resume-container {
@@ -791,11 +874,7 @@ a:hover {
     width: 80%;
   }
 
-  .myx-description {
-    font-size: 5vw;
-  }
-
-  .cshop-description {
+  .project-son-description {
     font-size: 5vw;
   }
 }

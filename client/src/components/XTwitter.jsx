@@ -10,9 +10,9 @@ const XTwitter = ({ myxActivate, setMyxActivate }) => {
           myxActivate ? "myx-container-activate" : "myx-container-out"
         }`}
       >
-        <div className="text-myx">
+        <div className="text-project-son">
           <h3> X (TWITTER) </h3>
-          <p className="myx-description ">
+          <p className="project-son-description ">
             App inspirada en X (twitter) e instagram. Los usuarios pueden
             registrarse hacer publicaciones escritas, dar "me gusta" y comentar.
           </p>
@@ -34,16 +34,18 @@ const XTwitter = ({ myxActivate, setMyxActivate }) => {
           </a>
         </div>
 
-        <div className="myx-img-container">
+        <div className="project-son-img-container">
           <img src={myx1} />
           <img src={myx2} />
         </div>
-        <i
-          onClick={() => {
-            setMyxActivate(false);
-          }}
-          className="fa-solid fa-arrow-right close-arrow"
-        ></i>
+        <div className="arrow-container">
+          <i
+            onClick={() => {
+              setMyxActivate(false);
+            }}
+            className="fa-solid fa-arrow-right close-arrow"
+          ></i>
+        </div>
       </div>
     </>
   );

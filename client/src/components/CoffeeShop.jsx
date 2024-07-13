@@ -11,9 +11,9 @@ const CoffeeShop = ({ cshopActivate, setCshopActivate }) => {
           cshopActivate ? "cshop-container-activate" : "cshop-container-out"
         }`}
       >
-        <div className="text-cshop">
+        <div className="text-project-son">
           <h3> COFFEE SHOP</h3>
-          <p className="cshop-description ">
+          <p className="project-son-description ">
             App que simula el comportamiento de de una tienda de cafe online. El
             usuario puede ver los productos en diferentes secciones, agregarlos
             al carrito de compras y eliminarlos del carrito.
@@ -36,7 +36,7 @@ const CoffeeShop = ({ cshopActivate, setCshopActivate }) => {
           </a>
         </div>
 
-        <div className="cshop-img-container">
+        <div className="project-son-img-container">
           <img src={coffee1} />
           <img src={coffee2} />
         </div>
