@@ -652,10 +652,11 @@ a:hover {
   }
 
   .text-project-son {
-    position: static;
+    position: relative;
+    top: 20%;
     width: 90%;
     height: fit-content;
-    margin-top: 200px;
+    margin-bottom: 300px;
   }
 
   .text-project-son h3 {
