@@ -10,6 +10,14 @@ const XTwitter = ({ myxActivate, setMyxActivate }) => {
           myxActivate ? "myx-container-activate" : "myx-container-out"
         }`}
       >
+        <div className="arrow-container">
+          <i
+            onClick={() => {
+              setMyxActivate(false);
+            }}
+            className="fa-solid fa-arrow-right close-arrow"
+          ></i>
+        </div>
         <div className="text-project-son">
           <h3> X (TWITTER) </h3>
           <p className="project-son-description ">
@@ -37,14 +45,6 @@ const XTwitter = ({ myxActivate, setMyxActivate }) => {
         <div className="project-son-img-container">
           <img src={myx1} />
           <img src={myx2} />
-        </div>
-        <div className="arrow-container">
-          <i
-            onClick={() => {
-              setMyxActivate(false);
-            }}
-            className="fa-solid fa-arrow-right close-arrow"
-          ></i>
         </div>
       </div>
     </>

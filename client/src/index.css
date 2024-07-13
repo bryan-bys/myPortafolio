@@ -526,10 +526,11 @@ a:hover {
   position: absolute;
   top: 5%;
   left: 5%;
-  margin-bottom: 200px;
+  height: 7vh;
 }
 
 .close-arrow {
+  margin-left: 20px;
   font-size: 50px;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -652,7 +653,7 @@ a:hover {
     position: static;
     width: 90%;
     height: fit-content;
-    margin-top: 150px;
+    margin-top: 200px;
   }
 
   .text-project-son h3 {
@@ -701,7 +702,6 @@ a:hover {
     height: 30vw;
     max-height: none;
     margin-top: 10px;
-    margin-bottom: 100px;
   }
 
   .close-arrow {
@@ -781,13 +781,13 @@ a:hover {
     align-items: center;
     position: static;
     width: 50%;
-    margin-bottom: 30px;
   }
 
   .project-son-img-container img {
     width: 70vw;
     height: 35vw;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 0;
   }
 
   /* .project-son-container {
