@@ -698,6 +698,7 @@ a:hover {
     height: 30vw;
     max-height: none;
     margin-top: 10px;
+    margin-bottom: 100px;
   }
 
   .close-arrow {
@@ -707,7 +708,7 @@ a:hover {
 
 @media (max-width: 600px) {
   .home-content p {
-    font-size: 3vw;
+    font-size: 4.5vw;
   }
 
   .resume-container {
