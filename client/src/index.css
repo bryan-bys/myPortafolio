@@ -268,8 +268,11 @@ a:hover {
 }
 
 .cv-container {
+  display: flex;
+  justify-content: center;
   width: 100%;
-  overflow: hidden;
+  height: auto;
+  background-color: #769389;
 }
 
 .my-cv {
