@@ -520,15 +520,11 @@ a:hover {
 }
 
 .arrow-container {
-  position: absolute;
-  top: 5%;
-  left: 5%;
-  width: 100%;
   height: 7vh;
 }
 
 .close-arrow {
-  margin-left: 20px;
+  margin-left: 5%;
   font-size: 50px;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -652,9 +648,8 @@ a:hover {
   }
 
   .text-project-son {
-    position: static;
+    top: 10%;
     width: 90%;
-    padding-top: 100px;
     padding-left: 0;
   }
 
@@ -690,7 +685,6 @@ a:hover {
   }
 
   .project-son-img-container {
-    position: static;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -707,8 +701,7 @@ a:hover {
   }
 
   .arrow-container {
-    top: 1%;
-    left: 1%;
+    margin-bottom: 50px;
   }
 
   .close-arrow {
@@ -742,7 +735,6 @@ a:hover {
   .text-project-son {
     position: static;
     width: 90%;
-    padding-top: 250px;
   }
 
   .text-project-son h3 {
@@ -885,5 +877,9 @@ a:hover {
 
   .project-son-description {
     font-size: 5vw;
+  }
+
+  .arrow-container {
+    margin-bottom: 20px;
   }
 }
