@@ -350,85 +350,6 @@ a:hover {
   animation: slideOutRight 1s forwards;
 }
 
-/* .text-myx {
-  position: absolute;
-  left: 7%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: baseline;
-  width: 50%;
-  height: 80vh;
-}
-
-.text-myx h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 4vw;
-  height: 3vw;
-  overflow: hidden;
-  margin-bottom: 20px;
-}
-.myx-description {
-  font-family: "Raleway", sans-serif;
-  font-size: 2vw;
-  width: 80%;
-}
-.languages {
-  display: flex;
-  align-items: center;
-  width: 80%;
-}
-.languages p {
-  margin-right: 10px;
-}
-.languages p i {
-  font-size: 3vw;
-}
-.django-logo {
-  width: 5vw;
-}
-
-.text-myx a {
-  all: unset;
-  font-size: 1.2vw;
-  cursor: pointer;
-  color: rgb(165, 215, 155);
-}
-.text-myx a i {
-  margin-left: 10px;
-}
-
-.myx-img-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: absolute;
-  right: 0;
-  width: 50%;
-}
-
-.myx-img-container img {
-  width: 90%;
-  height: 17vw;
-  border: solid rgb(165, 215, 155) 2px;
-  border-radius: 20px;
-  margin-top: 30px;
-} */
-
-/* .close-arrow {
-  position: absolute;
-  bottom: 0;
-  left: 45%;
-  margin-bottom: 20px;
-  font-size: 2vw;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-} */
-
-/* .close-arrow:hover {
-  transform: translateY(-5px);
-} */
-
 /* COFFEESHOP  */
 
 .cshop-container {
@@ -521,6 +442,7 @@ a:hover {
 
 .arrow-container {
   height: 7vh;
+  margin-left: 2vw;
 }
 
 .close-arrow {
@@ -701,6 +623,7 @@ a:hover {
   }
 
   .arrow-container {
+    margin-top: 5%;
     margin-bottom: 50px;
   }
 
