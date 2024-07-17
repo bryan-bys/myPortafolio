@@ -1,3 +1,5 @@
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +10,9 @@ a {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
 }
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
 /* ///////MAIN ///////*/
 .main-back {
   position: absolute;
@@ -28,6 +33,8 @@ a {
   background-color: #769389;
   overflow: hidden;
 }
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* ///////NAV/////// */
 
@@ -82,6 +89,7 @@ a {
 a:hover {
   transform: skewX(-20deg);
 }
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* /////// ASIDE /////// */
 .aside-container {
@@ -157,6 +165,8 @@ a:hover {
   font-family: "Montserrat", sans-serif;
 }
 
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
 /* ///////PROJECTS/////// */
 
 .projects-background {
@@ -231,6 +241,8 @@ a:hover {
   transform: scale(1.01);
 }
 
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
 /* //////RESUME////// */
 
 .resume-container {
@@ -266,19 +278,38 @@ a:hover {
   border: 2px solid black;
   height: 85vh;
 }
+.cv-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(21, 21, 22);
+}
 
 .cv-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
-  height: auto;
+  margin: 5%;
   background-color: #769389;
 }
-
 .my-cv {
-  width: 100%;
-  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: auto;
+  margin: 5%;
 }
+.my-cv iframe {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
 
 /*/////// CONTACT//////// */
 
@@ -329,6 +360,8 @@ a:hover {
   transform: translateY(-5px);
 }
 
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
 /* MYX CONTAINER  */
 
 .myx-container {
@@ -352,6 +385,8 @@ a:hover {
 .myx-container-out {
   animation: slideOutRight 1s forwards;
 }
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* COFFEESHOP  */
 
@@ -377,6 +412,8 @@ a:hover {
 .cshop-container-out {
   animation: slideCTopOut 1s forwards;
 }
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* PROJECT-SON */
 
@@ -459,6 +496,8 @@ a:hover {
   transform: translateY(-5px);
 }
 
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
+
 /* ANIMATIONS */
 
 @keyframes blurIn {
@@ -540,6 +579,8 @@ a:hover {
     top: 0;
   }
 }
+
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* BREAKPOINTS */
 
@@ -711,6 +752,24 @@ a:hover {
     height: 35vw;
     margin-top: 5px;
     margin-bottom: 0;
+  }
+
+  .cv-background {
+    align-items: start;
+  }
+
+  .cv-container {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #769389;
+  }
+  .my-cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
   }
 
   /* .project-son-container {
