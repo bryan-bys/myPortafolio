@@ -270,13 +270,16 @@ a:hover {
 .resume-container a {
   all: unset;
   position: absolute;
+  display: flex;
+  align-items: center;
   width: 10vw;
+  height: 85vh;
+  padding-bottom: 10%;
   transform: rotate(180deg);
   writing-mode: vertical-rl;
   background-color: rgb(21, 21, 22);
   color: #769389;
   border: 2px solid black;
-  height: 85vh;
 }
 .cv-background {
   display: flex;
