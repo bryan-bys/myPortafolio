@@ -1,5 +1,5 @@
 import React from "react";
-import gitMyCV from "../assets/MyCV.png";
+import MyCV from "../assets/MyCV.png";
 
 const Cv = () => {
   return (

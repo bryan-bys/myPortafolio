@@ -274,12 +274,13 @@ a:hover {
   align-items: center;
   width: 10vw;
   height: 85vh;
-  padding-bottom: 10%;
+  padding-top: 7%;
   transform: rotate(180deg);
   writing-mode: vertical-rl;
   background-color: rgb(21, 21, 22);
   color: #769389;
   border: 2px solid black;
+  cursor: pointer;
 }
 .cv-background {
   display: flex;
