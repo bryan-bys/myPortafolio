@@ -418,6 +418,29 @@ a:hover {
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////////////// */
+/* PHOTO-GALLERY */
+.p-gallery-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  right: -100%;
+  z-index: 999;
+  width: 80%;
+  height: 97vh;
+  border: solid 2px black;
+  border-radius: 0 0 50px 0px;
+  background-color: #526b2a;
+}
+
+.p-gallery-container-activate {
+  animation: slideRightIn 1s forwards;
+}
+
+.p-gallery-container-out {
+  animation: slideOutRight 1s forwards;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* PROJECT-SON */
 
@@ -426,7 +449,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: baseline;
-  width: 50%;
+  width: 60%;
   padding-left: 7%;
   height: min-content;
 }
@@ -479,7 +502,7 @@ a:hover {
   width: 25vw;
   height: 14vw;
   max-height: 200px;
-  border: solid rgb(165, 215, 155) 2px;
+  border: solid rgb(0, 0, 0) 5px;
   border-radius: 20px;
   margin-top: 30px;
 }
@@ -608,6 +631,16 @@ a:hover {
     overflow-y: scroll;
   }
   .cshop-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 5px;
+    overflow-y: scroll;
+  }
+
+  .p-gallery-container {
     display: flex;
     flex-direction: column;
     align-items: center;

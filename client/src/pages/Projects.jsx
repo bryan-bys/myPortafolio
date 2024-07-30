@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import XTwitter from "../components/XTwitter";
 import CoffeeShop from "../components/CoffeeShop";
+import PhotoGallery from "../components/PhotoGallery";
 
 const Projects = () => {
   const [myxActivate, setMyxActivate] = useState(false);
   const [cshopActivate, setCshopActivate] = useState(false);
+  const [pGalleryActivate, setPGalleryActivate] = useState(false);
 
   return (
     <>
@@ -16,6 +18,10 @@ const Projects = () => {
           <CoffeeShop
             cshopActivate={cshopActivate}
             setCshopActivate={setCshopActivate}
+          />
+          <PhotoGallery
+            pGalleryActivate={pGalleryActivate}
+            setPGalleryActivate={setPGalleryActivate}
           />
           <div className="projects-home-btn">
             <Link to="/">HOME</Link>
@@ -35,7 +41,13 @@ const Projects = () => {
             >
               COFFEE-SHOP
             </p>
-            <p>PHOTOS GALERY</p>
+            <p
+              onClick={() => {
+                setPGalleryActivate(true);
+              }}
+            >
+              PHOTOS GALERY
+            </p>
           </div>
         </div>
       </div>
