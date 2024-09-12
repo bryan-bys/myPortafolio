@@ -22,9 +22,19 @@ const CoffeeShop = ({ cshopActivate, setCshopActivate }) => {
         <div className="text-project-son">
           <h3> COFFEE SHOP</h3>
           <p className="project-son-description ">
-            App que simula el comportamiento de de una tienda de cafe online. El
-            usuario puede ver los productos en diferentes secciones, agregarlos
-            al carrito de compras y eliminarlos del carrito.
+            App que simula el comportamiento de de una tienda de cafe
+            online(Ecommerce). El usuario puede ver los productos en diferentes
+            secciones, agregarlos al carrito de compras y eliminarlos del
+            carrito.
+            <ul>
+              <li>Frontend en React(Hooks,React router, componentes)</li>
+              <li>
+                Backend programado en Django(Listas de cafe, manejo de carrito
+                de compras)
+              </li>
+              <li>API REST</li>
+              <li>Estilos y Animaciones en Css</li>
+            </ul>
           </p>
           <div className="languages">
             <p>

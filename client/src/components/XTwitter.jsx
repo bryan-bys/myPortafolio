@@ -23,6 +23,17 @@ const XTwitter = ({ myxActivate, setMyxActivate }) => {
           <p className="project-son-description ">
             App inspirada en X (twitter) e instagram. Los usuarios pueden
             registrarse hacer publicaciones escritas, dar "me gusta" y comentar.
+            <ul>
+              <li>
+                Frontend prgramado en React (hooks, React router, componentes)
+              </li>
+              <li>
+                Backend programado en Django(autenticacion de usuario, manejo de
+                post, likes y comentarios )
+              </li>
+              <li>API REST</li>
+              <li>Estilos y Animaciones en Css</li>
+            </ul>
           </p>
           <div className="languages">
             <p>

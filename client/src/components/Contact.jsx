@@ -23,6 +23,13 @@ const Contact = ({ contactActive }) => {
             bryanmm212@gmail.com <i className="fa-solid fa-copy"></i>
           </p>
         </button>
+        <a
+          target="_blank"
+          href="http://www.linkedin.com/in/bryan-martinez-mesa"
+          className="linkedin-a"
+        >
+          <i className="fa-brands fa-linkedin linkedin"></i>
+        </a>
       </div>
     </>
   );

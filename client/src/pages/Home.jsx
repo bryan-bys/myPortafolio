@@ -4,11 +4,11 @@ const Home = ({ homeActive }) => {
       <div className="home-content">
         <h3>WELCOME</h3>
         <p>
-          Hola, soy Bryan, un apasionado del desarrollo web autodidacta con
-          solidos conocimientos en React, typescript,Javascript y css. También
-          tengo conocimientos en backend con Python y Django. En este
-          portafolio, encontrarás una muestra de mis proyectos, donde podrás ver
-          mi dedicación y amor por la creación de interfaces intuitivas y
+          Hola, soy Bryan, un apasionado del desarrollo web con solidos
+          conocimientos en React, typescript,Javascript y css. También tengo
+          conocimientos en backend con Python y Django. En este portafolio,
+          encontrarás una muestra de mis proyectos, donde podrás ver mi
+          dedicación y amor por la creación de interfaces intuitivas y
           atractivas, así como mi habilidad para desarrollar soluciones en el
           backend. ¡Espero que disfrutes explorando mi trabajo tanto como yo
           disfruté creándolo!

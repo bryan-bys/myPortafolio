@@ -27,6 +27,12 @@ const PhotoGallery = ({ pGalleryActivate, setPGalleryActivate }) => {
             App que utiliza la API de unsplash para recrear una galeria de arte
             virtual en donde las protagonistas son las fotografias especial
             mente las de arte
+            <ul>
+              <li>Frontend en React(Hooks,React router, componentes)</li>
+              <li>Backend API Unsplash</li>
+              <li>API REST</li>
+              <li>Estilos y Animaciones en Css</li>
+            </ul>
           </p>
           <div className="languages">
             <p>
